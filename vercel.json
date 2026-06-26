@@ -1,7 +1,4 @@
 {
-  "buildCommand": "echo 'Redirect-only deployment, skipping build'",
-  "framework": null,
-  "installCommand": "echo 'No install needed'",
   "redirects": [
     {
       "source": "/:path*",
