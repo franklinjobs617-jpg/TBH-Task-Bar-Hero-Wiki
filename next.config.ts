@@ -36,6 +36,15 @@ const nextConfig: NextConfig = {
     };
     return config;
   },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        destination: "https://taskbarherohub.wiki/:path*",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
